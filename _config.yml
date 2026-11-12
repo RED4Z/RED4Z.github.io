@@ -1,0 +1,74 @@
+# Site settings
+title: RED4Z Blog
+SEOTitle: RED4Z 的博客 | Android 系统开发
+header-img: img/home-bg.jpg
+email: redyoo@163.com
+description: "记录 Android Framework / Native / HAL 与底层调试"
+keyword: "Android, Framework, HAL, Binder, SurfaceFlinger"
+url: "https://red4z.github.io"
+baseurl: ""
+
+
+# Publish posts or collection documents with a future date.
+future: true
+
+
+# SNS settings
+RSS: true
+github_username: RED4Z
+#weibo_username:
+#zhihu_username:
+#twitter_username:
+
+
+# Build settings
+highlighter: rouge
+permalink: pretty
+paginate: 10
+timezone: Asia/Shanghai
+exclude:
+  [
+    "less",
+    "node_modules",
+    "Gruntfile.js",
+    "package.json",
+    "README.md",
+    "README.zh.md",
+  ]
+anchorjs: true
+
+
+# Gems
+plugins: [jekyll-paginate]
+
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+
+# Disqus settings
+disqus_username:
+
+
+# Netease settings
+netease_comment: false
+
+
+# Analytics settings
+# ba_track_id:
+# ga_track_id:
+# ga_domain:
+
+
+# Sidebar settings
+sidebar: true
+sidebar-about-description: "Android 系统开发 / Framework / Native / HAL"
+#sidebar-avatar: https://github.com/RED4Z.png
