@@ -57,6 +57,12 @@ kramdown:
 # Disqus settings
 disqus_username:
 
+# Comments settings (utterances, powered by GitHub Issues)
+utterances:
+  repo: RED4Z/RED4Z.github.io
+  issue_term: pathname
+  theme: github-light
+
 
 # Netease settings
 netease_comment: false
