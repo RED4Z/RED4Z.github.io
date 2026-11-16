@@ -61,6 +61,20 @@ layout: default
                 <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
                 <!-- 网易云跟帖 评论框 end -->
                 {% endif %}
+
+                {% if site.utterances.repo %}
+                <!-- utterances 评论框 start -->
+                <div class="comment">
+                    <script src="https://utteranc.es/client.js"
+                            repo="{{ site.utterances.repo }}"
+                            issue-term="{{ site.utterances.issue_term }}"
+                            theme="{{ site.utterances.theme }}"
+                            crossorigin="anonymous"
+                            async>
+                    </script>
+                </div>
+                <!-- utterances 评论框 end -->
+                {% endif %}
             </div>  
 
     <!-- Side Catalog Container -->
