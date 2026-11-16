@@ -1,9 +1,9 @@
 # Site settings
 title: RED4Z Blog
-SEOTitle: RED4Z 的博客 | Android 系统开发
+SEOTitle: RED4Z 的博客 | Android 系统开发 | 程序员的业余生活
 header-img: img/home-bg.jpg
 email: redyoo@163.com
-description: "记录 Android Framework / Native / HAL 与底层调试"
+description: "记录 Android Life"
 keyword: "Android, Framework, HAL, Binder, SurfaceFlinger"
 url: "https://red4z.github.io"
 baseurl: ""
@@ -70,5 +70,5 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true
-sidebar-about-description: "Android 系统开发 / Framework / Native / HAL"
+sidebar-about-description: "一个蹩脚程序员的业务生活"
 #sidebar-avatar: https://github.com/RED4Z.png
